@@ -1,0 +1,99 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+#titleTop{
+    background: #303030;
+    color: #FFFFFF;
+    padding: 150px;
+}
+
+#title-top{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 40px;
+}
+
+#textTop{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+#icones{
+    background: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 100px;
+}
+
+#image{
+    border-radius: 30px;
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#image{
+    width: 510px;
+    margin: 82px 54px 92px 64px;
+}
+
+#titleHistory{
+    font-size: 30px;
+    margin: 304px 0px 0px 100px;
+}
+
+#textHistory{
+    margin: 30px 0px 314px 100px;
+}
+
+#formulario{
+    background: #303030;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#formTitle{
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+input{
+    width: 400px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+button{
+    font-family: 'Raleway', sans-serif;
+    background: #C07212;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    color: #EAECE5;
+    border: 0px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #cc8125;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #74460f;
+    transition-duration: 0.5s;
+}
+
+#placeHolder{
+    font-family: 'Raleway', sans-serif;
+}
